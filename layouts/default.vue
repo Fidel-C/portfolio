@@ -71,12 +71,6 @@ export default {
           icon: 'basket',
           to: { name: 'services' },
         },
-      
-         {
-          title: 'Data Services',
-          icon: 'web',
-          to: { name: 'dataservices' },
-        },
           {
           title: 'About',
           icon: 'help',
