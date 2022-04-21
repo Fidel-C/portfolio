@@ -1,5 +1,5 @@
 <template>
-  <section class="has-background-primary">
+  <div class="has-background-primary layout">
     <section class="section is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
                       <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Onqode </h1>
       <h1
@@ -52,7 +52,7 @@
         &copy <p class="has-text-warning has-text-weight-bold"> Onqode {{ new Date().getFullYear() }}
       </p>
     </footer>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -99,6 +99,11 @@ transition:all 2s ease,
 
 }
 
+
+.layout{
+  min-height: 100vh;
+  min-width: 100vw;
+}
 
 
 

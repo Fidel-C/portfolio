@@ -11,7 +11,7 @@
 
       <div class="column ">
         <div style="width: 100px" >
-          <a href="https://wa.me/07064620806" target="_blank" class="has-text-light "
+          <a href="https://wa.me/+2347064620806" target="_blank" class="has-text-light "
             ><b-image src="/whatsapp.png" class="socials"> </b-image>
           </a>
         </div>
