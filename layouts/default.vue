@@ -33,7 +33,7 @@
         </div>
       </div>
     </section>
-    <footer class="is-flex is-flex-direction-column footer has-background-warning-dark has-text-light is-italic is-justify-content-center is-align-items-center">
+    <footer class="is-flex is-flex-direction-column main-footer has-background-warning-dark has-text-light is-italic is-justify-content-center is-align-items-center">
             <div class="is-justify-content-center mb-5"  style="width:100px">
          <b-image
        src="/logoDark.png"
@@ -86,7 +86,7 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style>
 
 .fade-enter-active{
 transition:all 3s ease,
@@ -121,8 +121,8 @@ transform: scale(120%);
 }
 
 
-footer{
-  position:absolute;
+main-footer{
+  position:sticky;
   bottom: 0;
   min-width: 100vw;
   max-height: 20rem;

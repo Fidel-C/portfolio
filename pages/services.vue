@@ -2,11 +2,11 @@
   <section class="container">
 
     <div class="columns is-centered is-multiline">
-      <div class="column is-one-quarter-desktop is-half-mobile mx-auto" v-for="service in services" :key="service.slug">
-        <Card class="m-2 p-2 " :title="service.title" :src="service.imgurl" ratio="16by9">
+      <div class="column is-one-quarter-desktop is-half-mobile mx-auto">
+        <Card class="m-2 p-2 " :title="service.title" :src="service.imgurl" ratio="16by9" v-for="service in services" :key="service.slug">
           <template #footer>
-            <a
-              @click="getService(service)">Read more...</a>
+            <b-button
+              @click="getService(service)">Read more...</b-button>
           </template>
         </Card>
       </div>
