@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="section" style="min-width:90%;">
 
     <div class="columns">
       <div class="column" v-for="service in services" :key="service.slug">
