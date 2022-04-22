@@ -1,5 +1,6 @@
 <template>
-  <div class="has-background-primary layout" style="min-width:100vw; min-height:100vh;">
+  <div class="has-background-primary layout" style="min-height: 100vh;
+    min-width: 100%;">
     <section class="section is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
                       <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Onqode </h1>
       <h1
@@ -100,10 +101,6 @@ transition:all 2s ease,
 }
 
 
-.layout{
-  min-height: 100vh;
-  min-width: 100vw;
-}
 
 
 
@@ -122,9 +119,8 @@ transform: scale(120%);
 
 
 .footer{
-position:absolute;
-bottom:0;
-min-width: 100%;
-
+bottom: 0;
+min-width:100vw;
+position:fixed;
 }
 </style>
