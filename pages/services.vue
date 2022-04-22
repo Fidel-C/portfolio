@@ -1,16 +1,14 @@
 <template>
-  <section class="section" style="min-width:90%;">
+  <section class="container">
 
-    <div class="columns">
-      <div class="column" v-for="service in services" :key="service.slug">
-        <card :title="service.title" :src="service.imgurl" ratio="16by9">
+    <div class="columns is-centered is-multiline">
+      <div class="column is-one-quarter-desktop is-half-mobile mx-auto" v-for="service in services" :key="service.slug">
+        <Card class="m-2 p-2 " :title="service.title" :src="service.imgurl" ratio="16by9">
           <template #footer>
-            <b-button
-              @click="getService(service)"
-              class="button is-primary-light"
-              >Read more...</b-button>
+            <a
+              @click="getService(service)">Read more...</a>
           </template>
-        </card>
+        </Card>
       </div>
     </div>
 
@@ -26,7 +24,9 @@
   </section>
 </template>
 <script>
+import Card from '~/components/Card.vue'
 export default {
+  components: { Card },
   head() {
     return {
       title: `Onqode | ${this.$route.name}`,
@@ -78,3 +78,7 @@ this.showchild=true
 
 }
 </script>
+
+<style scoped>
+
+</style>

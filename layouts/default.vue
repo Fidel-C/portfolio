@@ -1,6 +1,5 @@
 <template>
-  <div class="has-background-primary layout" style="min-height: 100vh;
-    min-width: 100%;">
+  <div class="has-background-primary layout">
     <section class="section is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
                       <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Onqode </h1>
       <h1
@@ -9,7 +8,7 @@
        "I Code and Design <span class="subtitle is-5 has-text-light is-italic is-underlined">beautiful and really simple things."</span>
       </h1>
     </section>
-    <section class="section mb-5" style="min-width:100vw;">
+    <section class="section" style="min-width:100vw,height:100vh">
       <div class="columns">
         <aside class="column is-2 section">
 
@@ -27,14 +26,14 @@
           </ul>
         </aside>
 
-        <div class="container column is-10">
+        <div class="column is-10 p-2 m-2">
           <transition name="fade">
           <Nuxt />
           </transition>
         </div>
       </div>
     </section>
-    <footer class="is-flex mt-5 is-flex-direction-column footer has-background-warning-dark has-text-light is-italic is-justify-content-center is-align-items-center">
+    <footer class="is-flex is-flex-direction-column footer has-background-warning-dark has-text-light is-italic is-justify-content-center is-align-items-center">
             <div class="is-justify-content-center mb-5"  style="width:100px">
          <b-image
        src="/logoDark.png"
@@ -87,7 +86,7 @@ export default {
   },
 }
 </script>
-<style>
+<style scoped>
 
 .fade-enter-active{
 transition:all 3s ease,
@@ -101,6 +100,10 @@ transition:all 2s ease,
 }
 
 
+.layout{
+  min-height: 100vh;
+  min-width: 100vw;
+}
 
 
 
@@ -118,10 +121,11 @@ transform: scale(120%);
 }
 
 
-.footer{
-bottom: 0;
-min-width:100vw;
-position:fixed;
-max-height: 100px;
+footer{
+  position:static;
+  bottom: 0;
+  min-width: 100vw;
+  max-height: 20rem;
+
 }
 </style>
