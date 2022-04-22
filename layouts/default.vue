@@ -1,5 +1,5 @@
 <template>
-  <div class="has-background-primary layout">
+  <div class="has-background-primary layout" style="min-width:100vw; min-height:100vh;">
     <section class="section is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
                       <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Onqode </h1>
       <h1
