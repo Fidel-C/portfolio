@@ -122,7 +122,7 @@ transform: scale(120%);
 
 
 footer{
-  position:static;
+  position:absolute;
   bottom: 0;
   min-width: 100vw;
   max-height: 20rem;
