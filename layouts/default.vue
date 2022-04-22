@@ -122,10 +122,10 @@ transform: scale(120%);
 
 
 main-footer{
-  position:sticky;
+  position:fixed;
   bottom: 0;
   min-width: 100vw;
-  max-height: 20rem;
+  max-height: 22rem;
 
 }
 </style>
