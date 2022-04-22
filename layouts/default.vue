@@ -9,7 +9,7 @@
        "I Code and Design <span class="subtitle is-5 has-text-light is-italic is-underlined">beautiful and really simple things."</span>
       </h1>
     </section>
-    <section class="section">
+    <section class="section mb-3">
       <div class="columns">
         <aside class="column is-2 section">
 
@@ -34,7 +34,7 @@
         </div>
       </div>
     </section>
-    <footer class="is-flex is-flex-direction-column footer has-background-warning-dark has-text-light is-italic is-justify-content-center is-align-items-center">
+    <footer class="is-flex mt-4 is-flex-direction-column footer has-background-warning-dark has-text-light is-italic is-justify-content-center is-align-items-center">
             <div class="is-justify-content-center mb-5"  style="width:100px">
          <b-image
        src="/logoDark.png"
@@ -122,5 +122,6 @@ transform: scale(120%);
 bottom: 0;
 min-width:100vw;
 position:fixed;
+max-height: 100px;
 }
 </style>
