@@ -9,7 +9,7 @@
        "I Code and Design <span class="subtitle is-5 has-text-light is-italic is-underlined">beautiful and really simple things."</span>
       </h1>
     </section>
-    <section class="section mb-3">
+    <section class="section mb-3" style="min-width:100%">
       <div class="columns">
         <aside class="column is-2 section">
 
