@@ -2,7 +2,7 @@
   <section class="container">
 
     <div class="columns is-centered is-multiline">
-      <div class="column is-one-quarter-desktop is-half-mobile"  v-for="service in services" :key="service.slug">
+      <div class="column is-one-quarter-desktop is-full-mobile" v-for="service in services" :key="service.slug">
         <Card class="m-4 p-2 " :title="service.title" :src="service.imgurl" ratio="16by9" >
           <template #footer>
             <b-button
