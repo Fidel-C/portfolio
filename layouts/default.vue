@@ -119,4 +119,9 @@ transform: scale(120%);
 transition:all 2s;
 transform: scale(120%);
 }
+
+
+footer{
+  position:fixed
+}
 </style>
