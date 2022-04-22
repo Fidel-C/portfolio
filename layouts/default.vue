@@ -121,7 +121,10 @@ transform: scale(120%);
 }
 
 
-footer{
-  position:fixed
+.footer{
+position:absolute;
+bottom:0;
+min-width: 100%;
+
 }
 </style>
