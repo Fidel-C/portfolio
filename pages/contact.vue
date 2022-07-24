@@ -1,9 +1,9 @@
 <template>
-  <section class="section has-background-primary-dark" style="border-radius:30%">
-    <div class="columns is-mobile is-multiline">
-      <div class="column ">
+  <section class="section has-background-dark" style="border-radius:30%">
+    <div class="columns is-mobile is-multiline ">
+      <div class="column">
         <div style="width: 100px">
-          <a href="https://fidelchukwunyere@gmail.com"  target="_blank" class="has-text-light"
+          <a href="mailto:fidelchukwunyere@gmail.com"  target="_blank" class="has-text-light"
             ><b-image src="/email.png" class="socials"> </b-image>
           </a>
         </div>

@@ -10,18 +10,18 @@
           <figure :class="`image is-${ratio}`">
               <img :src="src">
           </figure>
-    
+
         </div>
-      <footer class="card-footer">
+      <footer class="card-footer is-justify-content-center p-1">
         <div class="card-footer-item">
-      
+
           <slot name="footer" />
-          
+
         </div>
       </footer>
       </div>
     </div>
-  
+
 
  </template>
 
@@ -40,12 +40,12 @@ export default {
       type:String,
       required:false
     },
-    src:{ 
+    src:{
       type:String,
       required:false
 
     },
-   
+
   }
 }
 </script>

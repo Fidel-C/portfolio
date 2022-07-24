@@ -1,10 +1,10 @@
 <template>
-  <section class="section">
+  <section class="section has-background-black" style="border-radius:30%;">
    <div class="level is-align-items-center is-justify-content-space-around">
                           
      <div class="container is-flex is-justify-content-center">
  
-       <h1 class="title is-2 has-text-warning has-text-centered-mobile is-italic">Glad <span class="has-text-light is-underlined">to have you</span> </h1>
+       <h1 class="title is-2 has-text-warning has-text-centered-mobile is-italic">All<span class="has-text-light is-underlined">things beautiful</span> </h1>
        <b-icon icon="handshake" class="ml-3 has-text-warning" size="is-large"></b-icon>
    </div>
 

@@ -1,12 +1,14 @@
 <template>
-  <section class="container">
+  <section class="container ">
 
-    <div class="columns is-centered is-multiline">
-      <div class="column is-one-quarter-desktop is-full-mobile" v-for="service in services" :key="service.slug">
-        <Card class="m-4 p-2 " :title="service.title" :src="service.imgurl" ratio="16by9" >
+    <div class="columns is-centered is-multiline is-mobile">
+      <div class="column is-one-quarter-desktop is-half-mobile" v-for="service in services" :key="service.slug">
+        <Card :title="service.title" :src="service.imgurl" ratio="16by9" style="height:230px;">
           <template #footer>
-            <b-button
-              @click="getService(service)">Read more...</b-button>
+
+                 <b-button
+              @click="getService(service)" class="is-dark has-text-centered">Read more...</b-button>
+
           </template>
         </Card>
       </div>
@@ -14,11 +16,11 @@
 
 
     <!-- child view -->
-   
+
 <b-modal v-model="showchild" class="p-4" animation="fade">
     <section class="has-background-primary is-justify-content-center has-text-light">
   <NuxtChild :service="service" />
-    </section> 
+    </section>
 </b-modal>
 
   </section>
@@ -66,7 +68,7 @@ export default {
       responsive: true,
     }
   },
-methods:{ 
+methods:{
     getService(obj){
     if(obj){
 this.service=obj,
