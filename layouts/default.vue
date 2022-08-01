@@ -8,9 +8,9 @@
        "I Code and Design <span class="subtitle is-5 has-text-light is-italic is-underlined">beautiful and really simple things."</span>
       </h1>
     </section>
-    <section class="section" style="min-width:100vw,height:100vh">
+    <section class="section " >
       <div class="columns">
-        <aside class="column is-2 section">
+        <aside class="column is-2 section m-5 p-5 is-flex is-align-items-center is-justify-content-between">
 
           <ul class="menu-list is-flex-mobile">
             <li
@@ -121,11 +121,11 @@ transform: scale(120%);
 }
 
 
-main-footer{
+.main-footer{
   position:fixed;
   bottom: 0;
   min-width: 100vw;
-  max-height: 22rem;
+  height: 6rem;
 
 }
 </style>
