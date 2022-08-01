@@ -1,6 +1,6 @@
 <template>
   <div class="has-background-grey layout">
-    <section class="section has-background-grey is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+    <section class="section has-background-grey is-justify-content-center is-align-items-center">
                       <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Onqode </h1>
       <h1
         class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"
@@ -26,7 +26,7 @@
           </ul>
         </aside>
 
-        <div class="column is-10 p-2 m-2">
+        <div class="column is-10 p-2 mb-4">
           <transition name="fade">
           <Nuxt />
           </transition>
@@ -47,7 +47,7 @@
 
       <p class="has-text-centered has-text-weight-semi-bold is-size-5">
 
-        Coded & Designed by
+        Designed by
         <span class="has-text-warning has-text-weight-bold">Fidel C. </span>
         &copy <p class="has-text-warning has-text-weight-bold"> Onqode {{ new Date().getFullYear() }}
       </p>
@@ -87,6 +87,11 @@ export default {
 }
 </script>
 <style>
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
 
 .fade-enter-active{
 transition:all 3s ease,
@@ -102,7 +107,7 @@ transition:all 2s ease,
 
 .layout{
   min-height: 100vh;
-  min-width: 100vw;
+  width: 100%;
 }
 
 
