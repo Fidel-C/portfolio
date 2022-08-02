@@ -106,8 +106,8 @@ transition:all 2s ease,
 }
 
 html,body{
-  height:100vh;
-  width:100%;
+  min-height:100vh;
+  min-width:100%;
 
 }
 body{
