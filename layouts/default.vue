@@ -108,9 +108,6 @@ transition:all 2s ease,
 html,body{
   min-height:100vh;
   min-width:100vw;
-
-}
-body{
   background-image: linear-gradient(rgb(222, 170, 74),grey,black);
 
 }
