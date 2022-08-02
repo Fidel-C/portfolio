@@ -1,5 +1,5 @@
 <template>
-  <div class="has-background-grey layout">
+  <div class="layout">
     <section class="section has-background-grey is-justify-content-center is-align-items-center">
                       <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Onqode </h1>
       <h1
@@ -86,7 +86,8 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style>
+
 *{
   margin:0;
   padding: 0;
@@ -104,16 +105,20 @@ transition:all 2s ease,
 
 }
 
-body{
-  height:100vh;
-  width:100%;
+html,body{
+  min-height:100vh;
+  min-width:100%;
+  background-image: linear-gradient(rgb(222, 170, 74),grey,black);
 
 }
 
-.layout{
+/* .layout{t
   min-height: 100vh;
   min-width: 100vw;
-}
+
+} */
+
+
 
 
 
@@ -135,7 +140,8 @@ transform: scale(120%);
   position:fixed;
   bottom: 0;
   min-width: 100vw;
-  height: 6rem;
+  height: 5rem;
+  background-image: linear-gradient(grey,black);
 
 }
 </style>

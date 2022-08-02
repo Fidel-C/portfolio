@@ -1,7 +1,7 @@
 <template>
     <div class="card">
       <header class="card-header">
-        <p class="card-header-title has-text-grey has-text-centered">
+        <p class="card-header-title has-text-light has-text-centered">
           {{ title }}
         </p>
       </header>
@@ -49,3 +49,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.card{
+  background-image: linear-gradient(grey,black);
+  color:white;
+}
+</style>

@@ -2,7 +2,7 @@
   <section class="container p-3 m-4">
 
     <div class="columns mb-4 is-centered is-multiline is-mobile">
-      <div class="column is-one-quarter-desktop is-half-mobile" v-for="service in services" :key="service.slug">
+      <div class="column  is-one-quarter-desktop is-half-mobile" v-for="service in services" :key="service.slug">
         <Card :title="service.title" :src="service.imgurl" ratio="16by9" style="height:230px;">
           <template #footer>
 
@@ -18,7 +18,7 @@
     <!-- child view -->
 
 <b-modal v-model="showchild" class="p-4" animation="fade">
-    <section class="has-background-primary is-justify-content-center has-text-light">
+    <section class="has-background-black is-justify-content-center has-text-light">
   <NuxtChild :service="service" />
     </section>
 </b-modal>
