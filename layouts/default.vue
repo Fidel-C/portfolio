@@ -106,8 +106,11 @@ transition:all 2s ease,
 }
 
 html,body{
-  min-height:100vh;
-  min-width:100%;
+  height:100vh;
+  width:100%;
+
+}
+body{
   background-image: linear-gradient(rgb(222, 170, 74),grey,black);
 
 }
