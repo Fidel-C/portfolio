@@ -86,7 +86,7 @@ export default {
   },
 }
 </script>
-<style>
+<style scoped>
 *{
   margin:0;
   padding: 0;
@@ -104,9 +104,14 @@ transition:all 2s ease,
 
 }
 
+body{
+  height:100vh;
+  width:100%;
+
+}
 
 .layout{
-  min-height: 100vh;
+  min-height: 100%;
   width: 100%;
 }
 
