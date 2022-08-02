@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <section class="section has-background-grey is-justify-content-center is-align-items-center">
+    <section class="section is-justify-content-center is-align-items-center">
                       <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Onqode </h1>
       <h1
         class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"
@@ -139,7 +139,7 @@ transform: scale(120%);
 .main-footer{
   position:fixed;
   bottom: 0;
-  min-width: 100vw;
+  width: 100%;
   height: 6rem;
   background-image: linear-gradient(grey,black);
 
