@@ -105,7 +105,7 @@ transition:all 2s ease,
 
 }
 
-html,body{
+body{
   height:100vh;
   width:100%;
 
@@ -140,7 +140,7 @@ transform: scale(120%);
 
 
 .main-footer{
-  position:sticky;
+  position:static;
   bottom: 0;
   min-width: 100vw;
   height: 6rem;
