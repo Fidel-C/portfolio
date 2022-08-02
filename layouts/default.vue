@@ -112,11 +112,11 @@ html,body{
 
 }
 
-/* .layout{t
-  min-height: 100vh;
-  min-width: 100vw;
+.layout{
+  min-height: 100%;
+  min-width: 100%;
 
-} */
+}
 
 
 
@@ -137,10 +137,10 @@ transform: scale(120%);
 
 
 .main-footer{
-  position:fixed;
+  position:sticky;
   bottom: 0;
   min-width: 100vw;
-  height: 5rem;
+  height: 6rem;
   background-image: linear-gradient(grey,black);
 
 }
