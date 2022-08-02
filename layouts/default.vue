@@ -105,7 +105,7 @@ transition:all 2s ease,
 
 }
 
-body{
+html,body{
   min-height:100vh;
   min-width:100vw;
 
