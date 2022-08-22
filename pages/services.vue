@@ -18,7 +18,7 @@
     <!-- child view -->
 
 <b-modal v-model="showchild" class="p-4" animation="fade">
-    <section class="has-background-black is-justify-content-center has-text-light">
+    <section class="active is-justify-content-center has-text-light">
   <NuxtChild :service="service" />
     </section>
 </b-modal>
@@ -41,24 +41,24 @@ export default {
         showchild:false,
       services: [
         {
-          title: 'Backend Development',
+          title: 'Backend Dev...',
           slug: 'backend-end-services',
           imgurl: '/backend.jpg',
           details:"Backend development is about the ‘behind-the-scenes’ functionality of web or mobile applications. It is the code that runs in the server, it powers and connects the app to a database. Backend development works hand-in-hand with the frontend to deliver the final product to the end user."
         },
         {
-          title: 'Frontend Development',
+          title: 'Frontend Dev...',
           slug: 'front-end-services',
           imgurl: '/frontend.jpg',
           details:'While backend development builds the functionality of a web or mobile app, frontend development builds and structures the interface,which determines how the web/mobile app looks to the end users.'
         },
         {
-          title: 'Logo Design',
+          title: 'Quality Logo Design',
           slug: 'logo-design',
           imgurl: '/logoDesign.jpg',
           details:'A logo gives your brand a distinctive pictorial identity. You should consider getting one for your brand.'
         },
-        { title: "There's More",
+        { title: "There's More To Come",
          slug: 'more-services', imgurl: '/LogoDark.png' ,
          details:'It is a little beginning, but the idea is to add more quality content in the near-future, and God willing, we shall !!!'
          },

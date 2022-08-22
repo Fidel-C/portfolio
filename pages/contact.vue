@@ -1,6 +1,6 @@
 <template>
   <section class="section mb-6" >
-    <div class="columns has-background-dark is-mobile is-multiline p-3" style="border-radius:30%" >
+    <div class="columns is-mobile is-multiline p-3" style="border-radius:30%" >
       <div class="column">
         <div style="width: 100px">
           <a href="mailto:fidelchukwunyere@gmail.com"  target="_blank" class="has-text-light"

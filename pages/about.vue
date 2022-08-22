@@ -1,7 +1,7 @@
 <template>
   <section class="section">
 
-  <div class="is-rounded has-background-dark p-3" style="border-radius:30%">
+  <div class="is-rounded p-3" style="border-radius:30%">
         <h2 class="title is-5 has-text-light has-text-centered mb-2"> About the Author</h2>
     <section class="section " style="border-radius:50%">
       <h3 class="subtitle is-6 is-italic is-semibold has-text-warning has-text-centered">

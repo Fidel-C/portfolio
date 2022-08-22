@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
     <section class="section is-justify-content-center is-align-items-center">
-                      <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Onqode </h1>
+                      <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Hi!</h1>
       <h1
         class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"
       >
@@ -10,7 +10,7 @@
     </section>
     <section class="section " >
       <div class="columns">
-        <aside class="column is-2 section m-5 p-5 is-flex is-align-items-center is-justify-content-between">
+        <aside class="column is-2 section m-5 p-2 is-flex is-align-items-center is-justify-content-between">
 
           <ul class="menu-list is-flex-mobile">
             <li
@@ -18,7 +18,7 @@
               :key="key"
               class="has-text-weight-bold links"
             >
-              <NuxtLink :to="item.to" exact-active-class="is-active has-background-dark">
+              <NuxtLink :to="item.to" exact-active-class="is-active has-background-dark" style="background-image: linear-gradient(rgb(47, 3, 47),black);">
                 <b-icon :icon="item.icon" class="has-text-warning" />
                 {{ item.title }}
               </NuxtLink>
@@ -45,11 +45,8 @@
        </b-image>
       </div>
 
-      <p class="has-text-centered has-text-weight-semi-bold is-size-5">
-
-        Designed by
-        <span class="has-text-warning has-text-weight-bold">Fidel C. </span>
-        &copy <p class="has-text-warning has-text-weight-bold"> Onqode {{ new Date().getFullYear() }}
+      <p class="has-text-centered has-text-weight-semi-bold is-size-5"> Designed by
+        <span class="has-text-warning has-text-weight-bold">Fidel C. </span> &copy <p class="has-text-warning has-text-weight-bold">{{ new Date().getFullYear() }}
       </p>
     </footer>
   </div>
@@ -90,32 +87,46 @@ export default {
 
 *{
   margin:0;
-  padding: 0;
+  padding:0;
   box-sizing:border-box;
 }
 
 .fade-enter-active{
-transition:all 3s ease,
+transition:all 2s ease-in,
 
 
 }
 .fade-leave-active{
 
-transition:all 2s ease,
+transition:all 2s ease-in-out,
 
 }
 
-html,body{
-  min-height:100vh;
-  min-width:100vw;
-  background-image: linear-gradient(rgb(222, 170, 74),grey,black);
+html{
+  height:100%;
+  width:100%;
+  background-image: linear-gradient(rgb(240, 230, 230),rgb(47, 3, 47));
+
+}
+
+body{
+min-height: 100%;
+min-width: 100%;
 
 }
 
 .layout{
   min-height: 100%;
   min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
 
+
+}
+.main-footer{
+  margin-top: auto;
+  background-image: linear-gradient(rgb(47, 3, 47),black);
 }
 
 
@@ -127,21 +138,14 @@ html,body{
 
 /* cards */
 .card:hover{
-transition:all 2s;
+transition:all 1s;
 transform: scale(120%);
 }
 .links:hover{
-transition:all 2s;
+transition:all 1s;
 transform: scale(120%);
 }
 
 
-.main-footer{
-  position:fixed;
-  bottom: 0;
-  width: 100%;
-  height: 6rem;
-  background-image: linear-gradient(grey,black);
 
-}
 </style>

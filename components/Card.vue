@@ -1,6 +1,6 @@
 <template>
-    <div class="card">
-      <header class="card-header">
+    <div class="card is-justify-content-center is-align-items-around">
+      <header class="card-header mx-auto">
         <p class="card-header-title has-text-light has-text-centered">
           {{ title }}
         </p>
@@ -12,7 +12,7 @@
           </figure>
 
         </div>
-      <footer class="card-footer is-justify-content-center p-1">
+      <footer class="card-footer is-justify-content-center p-1 mt-auto">
         <div class="card-footer-item">
 
           <slot name="footer" />
@@ -52,7 +52,7 @@ export default {
 
 <style>
 .card{
-  background-image: linear-gradient(grey,black);
+  background-image: linear-gradient(rgb(47, 3, 47),black);
   color:white;
 }
 </style>
