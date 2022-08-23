@@ -10,7 +10,7 @@
     </section>
     <section class="section " >
       <div class="columns">
-        <aside class="column is-2 section m-5 p-2 is-flex is-align-items-center is-justify-content-between">
+        <aside class="column is-2  m-5 p-2 is-flex is-align-items-center is-justify-content-between">
 
           <ul class="menu-list is-flex-mobile">
             <li
@@ -18,7 +18,7 @@
               :key="key"
               class="has-text-weight-bold links"
             >
-              <NuxtLink :to="item.to" exact-active-class="is-active has-background-dark" style="background-image: linear-gradient(rgb(47, 3, 47),black);">
+              <NuxtLink :to="item.to" exact-active-class="is-active">
                 <b-icon :icon="item.icon" class="has-text-warning" />
                 {{ item.title }}
               </NuxtLink>
@@ -26,14 +26,14 @@
           </ul>
         </aside>
 
-        <div class="column is-10 p-2 mb-4">
+        <div>
           <transition name="fade">
           <Nuxt />
           </transition>
         </div>
       </div>
     </section>
-    <footer class="is-flex is-flex-direction-column main-footer has-background-black has-text-light is-italic is-justify-content-center is-align-items-center">
+    <footer class="is-flex is-flex-direction-column main-footer has-text-light is-italic is-justify-content-center is-align-items-center">
             <div class="is-justify-content-center mb-5"  style="width:100px">
          <b-image
        src="/logoDark.png"
@@ -102,34 +102,40 @@ transition:all 2s ease-in-out,
 
 }
 
-html{
+/* html{
   height:100%;
   width:100%;
-  background-image: linear-gradient(rgb(240, 230, 230),rgb(47, 3, 47));
+  background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
 
 }
 
 body{
 height:100%;
 width: 100%;
+background-image: linear-gradient(rgb(92, 11, 53),rgb(124, 8, 124));
 
-}
+} */
 
 .layout{
   height:100%;
   width: 100%;
+  background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
 
 
 }
 .main-footer{
+  padding: 1rem;
   margin-top: auto;
   background-image: linear-gradient(rgb(47, 3, 47),black);
 }
 
-
+.container{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
 
 
 

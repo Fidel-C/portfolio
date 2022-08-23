@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="container">
 
   <div class="is-rounded p-3" style="border-radius:30%">
         <h2 class="title is-5 has-text-light has-text-centered mb-2"> About the Author</h2>

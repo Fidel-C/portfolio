@@ -1,5 +1,5 @@
 <template>
-  <section class="section" >
+  <section class="container" >
    <div class="p-4">
 
      <div class="p-2  is-justify-content-center" style="border-radius:30%;">

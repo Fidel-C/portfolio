@@ -1,5 +1,5 @@
 <template>
-  <section class="section mb-6" >
+  <section class="container" >
     <div class="columns is-mobile is-multiline p-3" style="border-radius:30%" >
       <div class="column">
         <div style="width: 100px">
