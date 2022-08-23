@@ -110,14 +110,14 @@ html{
 }
 
 body{
-min-height: 100%;
-min-width: 100%;
+height:100%;
+width: 100%;
 
 }
 
 .layout{
-  min-height: 100%;
-  min-width: 100%;
+  height:100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
