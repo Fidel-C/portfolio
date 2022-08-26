@@ -1,7 +1,7 @@
 <template>
   <section class="container">
 
-    <div class="columns mb-4 is-centered is-multiline p-2">
+    <div class="columns mb-4 is-centered is-multiline is-mobile p-2 mx-auto">
       <div class="column  is-one-quarter-desktop is-half-mobile" v-for="service in services" :key="service.slug">
         <Card :title="service.title" :src="service.imgurl" ratio="16by9" style="height:230px;">
           <template #footer>
