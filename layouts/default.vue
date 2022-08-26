@@ -1,5 +1,5 @@
 <template>
-  <div class="layout">
+  <div class="container">
 
   <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Hi!</h1>
       <h1
@@ -122,7 +122,7 @@ display: flex;
 flex-direction: column;
 }
 
-.layout{
+/* .layout{
   height:100%;
   width: 100%;
   background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
@@ -130,7 +130,7 @@ flex-direction: column;
   flex-direction: column;
 
 
-}
+} */
 .main-footer{
   margin-top: auto;
   background-image: linear-gradient(rgb(47, 3, 47),black);
