@@ -46,7 +46,7 @@ export default {
 
   head(){
 return{
-  title:`Onqode | Home`
+  title:`PrettyQode | Home`
 }
   },
 
