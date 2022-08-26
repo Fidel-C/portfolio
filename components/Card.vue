@@ -1,5 +1,5 @@
 <template>
-    <div class="card is-justify-content-center is-align-items-center p-3">
+    <div class="card is-justify-content-center is-align-items-center p-1">
       <header class="card-header mx-auto">
         <p class="card-header-title has-text-light has-text-centered">
           {{ title }}
