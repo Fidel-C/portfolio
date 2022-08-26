@@ -7,15 +7,15 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Onqode',
+    title: 'Prettqode',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'A portfolio site by Fidel C.' },
+      { name: 'format-detection', content: 'prettyqode' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/logo.png' }
@@ -41,9 +41,32 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
+    '@nuxtjs/sitemap',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+    sitemap: {
+      hostname: '',
+      gzip:true,
+      exclude: [
+      ],
+      routes:[
+        // '',
+        // '/about/',
+        // 'contact/',
+        // 'services/',
+
+
+        {
+          url: '',
+          changefreq: 'daily',
+          priority: 1,
+        }
+      ]
+
   }
+
 }

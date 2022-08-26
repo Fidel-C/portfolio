@@ -18,6 +18,3 @@ props:{
 }
 </script>
 
-<style>
-
-</style>

@@ -81,6 +81,3 @@ this.showchild=true
 }
 </script>
 
-<style scoped>
-
-</style>

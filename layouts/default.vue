@@ -9,8 +9,8 @@
       </h1>
     </section>
     <section class="section " >
-      <div class="columns">
-        <aside class="column is-2  m-5 p-2 is-flex is-align-items-center is-justify-content-between">
+      <div class="columns is-multiline">
+        <aside class="column">
 
           <ul class="menu-list is-flex-mobile">
             <li
@@ -26,18 +26,20 @@
           </ul>
         </aside>
 
-        <div>
+        <div class="column is-four-fifths">
           <transition name="fade">
           <Nuxt />
           </transition>
         </div>
       </div>
     </section>
-    <footer class="is-flex is-flex-direction-column main-footer has-text-light is-italic is-justify-content-center is-align-items-center">
-            <div class="is-justify-content-center mb-5"  style="width:100px">
+    <footer class="main-footer mt-auto p-5">
+      <div class="columns is-centered">
+                 <div class="column mx-auto is-one-fifth" style="width:150px;">
          <b-image
        src="/logoDark.png"
        ratio="16by9"
+
        :responsive="responsive"
        is-rounded
        >
@@ -45,10 +47,14 @@
        </b-image>
       </div>
 
-      <p class="has-text-centered has-text-weight-semi-bold is-size-5"> Designed by
-        <span class="has-text-warning has-text-weight-bold">Fidel C. </span> &copy <p class="has-text-warning has-text-weight-bold">{{ new Date().getFullYear() }}
+
+
+      </div>
+         <div class="has-text-centered my-4">
+        <p class="has-text-centered has-text-weight-semi-bold is-size-5"> Designed by <span class="has-text-warning is-italic is-bold"> Fidel C.</span>      <span>{{ new Date().getFullYear() }}</span>
       </p>
-    </footer>
+      </div>
+       </footer>
   </div>
 </template>
 
@@ -102,7 +108,7 @@ transition:all 2s ease-in-out,
 
 }
 
-/* html{
+html{
   height:100%;
   width:100%;
   background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
@@ -114,7 +120,7 @@ height:100%;
 width: 100%;
 background-image: linear-gradient(rgb(92, 11, 53),rgb(124, 8, 124));
 
-} */
+}
 
 .layout{
   height:100%;
@@ -126,14 +132,17 @@ background-image: linear-gradient(rgb(92, 11, 53),rgb(124, 8, 124));
 
 }
 .main-footer{
-  padding: 1rem;
   margin-top: auto;
   background-image: linear-gradient(rgb(47, 3, 47),black);
+  min-width:100%;
+  height:5%;
 }
 
 .container{
   padding: 2rem;
   display: flex;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
 }
 
