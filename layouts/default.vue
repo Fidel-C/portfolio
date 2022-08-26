@@ -32,7 +32,7 @@
         </div>
       </div>
     </section>
-    <footer class="footer" style="background-image: linear-gradient(to right ,rgb(92, 11, 53),rgb(96, 8, 96));">
+    <footer class="main-footer">
       <div class="columns is-centered">
                  <div class="column mx-auto is-one-fifth" style="width:150px;">
          <b-image
@@ -130,10 +130,7 @@ background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
 
 
 }
-.footer{
-  background-image: linear-gradient((#400440),rgb(98, 20, 59));
 
-}
 
 .container{
   padding: 2rem;
@@ -143,7 +140,15 @@ background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
   flex-direction: column;
 }
 
+.main-footer{
+  margin-top: auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right(#170317),rgb(98, 20, 59));
+ color: wheat;
 
+}
 
 
 
