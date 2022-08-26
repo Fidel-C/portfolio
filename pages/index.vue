@@ -56,7 +56,12 @@ data(){
   return{
    items: [
   {imgurl:'/logo.png',},
-  {imgurl:'/logo.png',},
+  {imgurl:'/email.png',},
+  {imgurl:'/frontend.jpg',},
+  {imgurl:'/backend.jpg',},
+  {imgurl:'/messenger.png',},
+  {imgurl:'/telegram.png',},
+  {imgurl:'/whatsapp.png',},
 
 ],
 arrow:true,
