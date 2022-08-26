@@ -20,7 +20,7 @@
 
     <!-- child view -->
 
-<b-modal v-model="showchild" class="p-4" animation="fade">
+<b-modal v-model="showchild" class="p-2" animation="fade">
     <section class="active is-justify-content-center has-text-light">
   <NuxtChild :service="service" />
     </section>
@@ -65,8 +65,8 @@ export default {
          slug: 'my-projects', imgurl: '/logo.png' ,
          details:'Links to some of my projects',
          projects:[
-          {url:'https://mobiledata.com.ng',desc:'VTU website built with Django Backend'},
-          {url:'https://onqode-store.netlify.app',desc:'E-commerce webapp built with Django and Vue'}
+          {url:'https://mobiledata.com.ng',desc:'VTU website built with Django'},
+          {url:'https://onqode-store.netlify.app',desc:'E-commerce webapp built with Django Rest Framework and VueJS'}
          ]
          },
          { title: "More To Come",
