@@ -2,7 +2,7 @@
   <section class="container" >
 
   <div class="columns mx-auto my-5" style="border-radius:30%;">
-<div class="column mt-5 mr-auto">
+<div class="column mb-5 mr-auto">
   <h1 class="title is-2 has-text-warning has-text-centered is-italic">All<span class="has-text-light is-underlined">things beautiful</span> </h1>
 </div>
 
