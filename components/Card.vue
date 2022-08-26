@@ -1,5 +1,5 @@
 <template>
-    <div class="card is-justify-content-center is-align-items-around">
+    <div class="card is-justify-content-center is-align-items-center p-3">
       <header class="card-header mx-auto">
         <p class="card-header-title has-text-light has-text-centered">
           {{ title }}
@@ -13,14 +13,15 @@
 
         </div>
 
-      <footer class="card-footer is-justify-content-center p-1 mt-auto">
+      <div class="card-footer is-justify-content-center p-1 mt-auto">
         <div class="card-footer-item">
 
           <slot name="footer" />
 
         </div>
-      </footer>
       </div>
+
+    </div>
     </div>
 
 

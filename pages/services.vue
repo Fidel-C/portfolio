@@ -6,7 +6,6 @@
         <Card :title="service.title"  :src="service.imgurl"  :ratio="'16by9'" style="height:230px;">
 
 
-
           <template #footer>
 
                  <b-button
