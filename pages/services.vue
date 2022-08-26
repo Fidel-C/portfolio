@@ -44,19 +44,19 @@ export default {
         showchild:false,
       services: [
         {
-          title: 'Backend Development',
+          title: 'Backend',
           slug: 'backend-end-services',
           imgurl: '/backend.jpg',
           details:"Backend development is about the ‘behind-the-scenes’ functionality of web or mobile applications. It is the code that runs in the server, it powers and connects the app to a database. Backend development works hand-in-hand with the frontend to deliver the final product to the end user."
         },
         {
-          title: 'Frontend Development',
+          title: 'Frontend',
           slug: 'front-end-services',
           imgurl: '/frontend.jpg',
           details:'While backend development builds the functionality of a web or mobile app, frontend development builds and structures the interface,which determines how the web/mobile app looks to the end users.'
         },
         {
-          title: 'Quality Logo Design',
+          title: 'Logo Design',
           slug: 'logo-design',
           imgurl: '/logoDesign.jpg',
           details:'A logo gives your brand a distinctive pictorial identity. You should consider getting one for your brand.'
