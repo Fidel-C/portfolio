@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="layout">
 
   <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Hi!</h1>
       <h1
@@ -32,7 +32,7 @@
         </div>
       </div>
     </section>
-    <footer class="main-footer mt-auto p-5">
+    <footer class="main-footer">
       <div class="columns is-centered">
                  <div class="column mx-auto is-one-fifth" style="width:150px;">
          <b-image
@@ -110,31 +110,31 @@ transition:all 2s ease-in-out,
 html{
 height:100%;
 width:100%;
-background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
+background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
 
 }
 
 body{
 height:100%;
 width: 100%;
-background-image: linear-gradient(rgb(92, 11, 53),rgb(124, 8, 124));
-display: flex;
-flex-direction: column;
+background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
+
 }
 
-/* .layout{
+.layout{
   height:100%;
   width: 100%;
-  background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
+
   display: flex;
   flex-direction: column;
+background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
 
 
-} */
+}
 .main-footer{
   margin-top: auto;
   background-image: linear-gradient(rgb(47, 3, 47),black);
-  min-width:100%;
+  width:100%;
   height:5%;
 }
 
