@@ -108,9 +108,9 @@ transition:all 2s ease-in-out,
 }
 
 html{
-  height:100%;
-  width:100%;
-  background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
+height:100%;
+width:100%;
+background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
 
 }
 
@@ -118,14 +118,13 @@ body{
 height:100%;
 width: 100%;
 background-image: linear-gradient(rgb(92, 11, 53),rgb(124, 8, 124));
-
+display: flex;
+flex-direction: column;
 }
 
 .layout{
   height:100%;
   width: 100%;
-  min-height:100%;
-  min-width: 100%;
   background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
   display: flex;
   flex-direction: column;
