@@ -1,13 +1,12 @@
 <template>
   <div class="layout">
-    <section class="section is-justify-content-center is-align-items-center">
-                      <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Hi!</h1>
+
+  <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Hi!</h1>
       <h1
         class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"
       >
        "I Code and Design <span class="subtitle is-5 has-text-light is-italic is-underlined">beautiful and really simple things."</span>
       </h1>
-    </section>
     <section class="section " >
       <div class="columns is-multiline mx-auto">
         <aside class="column is-one-fifth">
@@ -125,6 +124,8 @@ background-image: linear-gradient(rgb(92, 11, 53),rgb(124, 8, 124));
 .layout{
   height:100%;
   width: 100%;
+  min-height:100%;
+  min-width: 100%;
   background-image: linear-gradient(rgb(92, 11, 53),rgb(47, 3, 47));
   display: flex;
   flex-direction: column;

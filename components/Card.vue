@@ -12,6 +12,7 @@
           </figure>
 
         </div>
+
       <footer class="card-footer is-justify-content-center p-1 mt-auto">
         <div class="card-footer-item">
 

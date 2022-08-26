@@ -13,7 +13,7 @@
           <b-carousel-item  v-for="(item, i) in items" :key="i">
             <section :class="`hero is-${item}`">
 
-           <div class="flex is-justify-content-center has-text-centered" style="max-height:200px;max-width:300px;">
+           <div class="flex is-justify-content-center has-text-centered" style="max-height:400x;max-width:600px;">
              <div class="has-text-centered mx-auto">
                    <b-image
                :src="item.imgurl"

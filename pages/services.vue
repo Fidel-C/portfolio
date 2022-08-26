@@ -3,13 +3,17 @@
 
     <div class="columns mb-4 is-centered is-multiline is-mobile mx-auto">
       <div class="column  is-one-quarter-desktop is-half-mobile" v-for="service in services" :key="service.slug">
-        <Card :title="service.title" :src="service.imgurl" ratio="16by9" style="height:230px;">
+        <Card :title="service.title"  :src="service.imgurl"  :ratio="'16by9'" style="height:230px;">
+
+
+
           <template #footer>
 
                  <b-button
               @click="getService(service)" class="is-dark is-small has-text-centered">Read more...</b-button>
 
           </template>
+
         </Card>
       </div>
     </div>
@@ -58,7 +62,15 @@ export default {
           imgurl: '/logoDesign.jpg',
           details:'A logo gives your brand a distinctive pictorial identity. You should consider getting one for your brand.'
         },
-        { title: "There's More To Come",
+        { title: "Projects",
+         slug: 'my-projects', imgurl: '/logo.png' ,
+         details:'Links to some of my projects',
+         projects:[
+          {url:'https://mobiledata.com.ng',desc:'VTU website built with Django Backend'},
+          {url:'https://onqode-store.netlify.app',desc:'E-commerce webapp built with Django and Vue'}
+         ]
+         },
+         { title: "There's More To Come",
          slug: 'more-services', imgurl: '/logo.png' ,
          details:'It is a little beginning, but the idea is to add more quality content in the near-future, and God willing, we shall !!!'
          },
