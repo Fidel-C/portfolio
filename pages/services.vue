@@ -59,7 +59,7 @@ export default {
           details:'A logo gives your brand a distinctive pictorial identity. You should consider getting one for your brand.'
         },
         { title: "There's More To Come",
-         slug: 'more-services', imgurl: '/LogoDark.png' ,
+         slug: 'more-services', imgurl: '/logo.png' ,
          details:'It is a little beginning, but the idea is to add more quality content in the near-future, and God willing, we shall !!!'
          },
       ],
