@@ -9,7 +9,7 @@
       </h1>
     </section>
     <section class="section " >
-      <div class="columns is-multiline">
+      <div class="columns is-multiline mx-auto">
         <aside class="column is-one-fifth">
 
           <ul class="menu-list is-flex-mobile mx-auto">
