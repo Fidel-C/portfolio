@@ -45,13 +45,13 @@ export default {
         showchild:false,
       services: [
         {
-          title: 'Backend Dev...',
+          title: 'Backend Development',
           slug: 'backend-end-services',
           imgurl: '/backend.jpg',
           details:"Backend development is about the ‘behind-the-scenes’ functionality of web or mobile applications. It is the code that runs in the server, it powers and connects the app to a database. Backend development works hand-in-hand with the frontend to deliver the final product to the end user."
         },
         {
-          title: 'Frontend Dev...',
+          title: 'Frontend Development',
           slug: 'front-end-services',
           imgurl: '/frontend.jpg',
           details:'While backend development builds the functionality of a web or mobile app, frontend development builds and structures the interface,which determines how the web/mobile app looks to the end users.'
@@ -62,7 +62,7 @@ export default {
           imgurl: '/logoDesign.jpg',
           details:'A logo gives your brand a distinctive pictorial identity. You should consider getting one for your brand.'
         },
-        { title: "Projects",
+        { title: "Projects Showcase",
          slug: 'my-projects', imgurl: '/logo.png' ,
          details:'Links to some of my projects',
          projects:[
@@ -70,7 +70,7 @@ export default {
           {url:'https://onqode-store.netlify.app',desc:'E-commerce webapp built with Django and Vue'}
          ]
          },
-         { title: "There's More To Come",
+         { title: "More To Come",
          slug: 'more-services', imgurl: '/logo.png' ,
          details:'It is a little beginning, but the idea is to add more quality content in the near-future, and God willing, we shall !!!'
          },

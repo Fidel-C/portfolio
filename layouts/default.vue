@@ -124,7 +124,6 @@ background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
 .layout{
   height:100%;
   width: 100%;
-
   display: flex;
   flex-direction: column;
 background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
@@ -132,7 +131,8 @@ background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
 
 }
 .main-footer{
-  position:fixed;
+  position:relative;
+  margin-top: auto;
   background-image: linear-gradient(rgb(47, 3, 47),black);
   width:100%;
   height:5%;

@@ -1,11 +1,11 @@
 <template>
   <section class="container">
 
-  <div class="is-rounded p-3" style="border-radius:30%">
+  <div class="is-rounded mx-auto" style="border-radius:30%;">
         <h2 class="title is-5 has-text-light has-text-centered mb-2"> About the Author</h2>
-    <section class="section " style="border-radius:50%">
+    <section class="section " style="border-radius:30%">
       <h3 class="subtitle is-6 is-italic is-semibold has-text-warning has-text-centered">
-    Hi, I am Fidel, a self-taught software developer, amongst other things.<br>
+    I am Fidel, a self-taught software developer.<br>
     I'm keen on, and experienced in both the frontend and
      the backend sides of software development, by which I can code modern, dynamic
      and interactive interfaces for your personal, business or social use. <br>
