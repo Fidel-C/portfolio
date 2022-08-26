@@ -35,7 +35,7 @@ export default {
   components: { Card },
   head() {
     return {
-      title: `Onqode | ${this.$route.name}`,
+      title: `PrettyQode | ${this.$route.name}`,
     }
   },
 

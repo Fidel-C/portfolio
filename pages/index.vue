@@ -2,12 +2,12 @@
   <section class="container" >
 
   <div class="columns is-centered mx-auto" style="border-radius:30%;">
-<div class="column">
+<div class="column is-one-third">
   <h1 class="title is-2 has-text-warning has-text-centered is-italic">All<span class="has-text-light is-underlined">things beautiful</span> </h1>
        <b-icon icon="handshake" class="has-text-warning has-text-centered" size="is-large"></b-icon>
 </div>
 
-<div class="column">
+<div class="column is-two-thirds">
 
         <b-carousel :arrow="arrow">
           <b-carousel-item  v-for="(item, i) in items" :key="i">

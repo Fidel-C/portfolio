@@ -39,7 +39,7 @@
 export default {
   head() {
     return {
-      title: `Onqode | ${this.$route.name}`
+      title: `PrettyQode | ${this.$route.name}`
     }
   },
 }
