@@ -49,7 +49,7 @@ export default {
   },
 
     sitemap: {
-      hostname: '',
+      hostname: 'https://prettyqode.com.ng',
       gzip:true,
       exclude: [
       ],
