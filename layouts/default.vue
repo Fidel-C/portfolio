@@ -10,9 +10,9 @@
     </section>
     <section class="section " >
       <div class="columns is-multiline">
-        <aside class="column">
+        <aside class="column is-one-fifth">
 
-          <ul class="menu-list is-flex-mobile">
+          <ul class="menu-list is-flex-mobile mx-auto">
             <li
               v-for="(item, key) of items"
               :key="key"
