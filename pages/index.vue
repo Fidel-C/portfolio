@@ -56,7 +56,7 @@ data(){
   return{
    items: [
   {imgurl:'/logo.png',},
-  {imgurl:'/logoDark.png',},
+  {imgurl:'/logo.png',},
 
 ],
 arrow:true,

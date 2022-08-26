@@ -37,7 +37,7 @@
       <div class="columns is-centered">
                  <div class="column mx-auto is-one-fifth" style="width:150px;">
          <b-image
-       src="/logoDark.png"
+       src="/logo.png"
        ratio="16by9"
 
        :responsive="responsive"
