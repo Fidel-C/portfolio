@@ -13,7 +13,7 @@
 
         </div>
 
-      <div class="card-footer is-justify-content-center p-1 mt-auto">
+      <div class="card-footer is-justify-content-center p-1 mx-auto">
         <div class="card-footer-item">
 
           <slot name="footer" />
