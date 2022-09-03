@@ -5,7 +5,7 @@
         <h2 class="title is-6 is-bold has-text-light has-text-centered mb-1 is-underlined"> About the Author</h2>
     <section class="section ">
       <p class="subtitle is-bold is-6 is-italic is-semibold has-text-light has-text-centered">
-    I am Fidel, a self-taught software developer and Law graduate.<br>
+    I am Fidel, a self-taught software developer.<br>
     I have many hobbies one of which is coding. I'm experienced in both the frontend and
      the backend sides of software development, by which I can code modern, dynamic
      and interactive interfaces for your personal, business or social use. <br>
