@@ -1,7 +1,7 @@
 <template>
   <section class="container">
 
-  <div class="is-rounded mx-auto p-2" style="border-radius:30%;background-color: #4d0f28;box-shadow: darkslateblue;">
+  <div class="is-rounded mx-auto p-2 col-sm-10 col-md-8 col-lg-6" style="border-radius:30%;background-color: #4d0f28;box-shadow: darkslateblue;">
         <h2 class="title is-6 is-bold has-text-light has-text-centered mb-1 is-underlined"> About the Author</h2>
     <section class="section ">
       <p class="subtitle is-bold is-6 is-italic is-semibold has-text-light has-text-centered">
