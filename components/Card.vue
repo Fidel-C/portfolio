@@ -1,7 +1,7 @@
 <template>
     <div class="card is-justify-content-center is-align-items-center p-1">
       <header class="card-header mx-auto">
-        <p class="has-text-light has-text-centered mx-auto">
+        <p class="has-text-light is-bold has-text-centered mx-auto">
           {{ title }}
         </p>
       </header>

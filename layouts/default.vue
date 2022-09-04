@@ -50,7 +50,7 @@
 
       </div>
          <div class="has-text-centered my-4">
-        <p class="has-text-centered has-text-weight-semi-bold is-size-6 is-italic has-text-light"> <span style="color:rgb(66,24, 5)" class="has-text-weight-bold">Pretty</span><span style="color:#12AD2A" class="has-text-weight-bold">Qode</span> by <span class="has-text-warning is-italic is-bold is-bold"> Fidel C.</span>&copy;<span>{{ new Date().getFullYear() }}</span>
+        <p class="has-text-centered has-text-weight-semi-bold is-size-6 is-italic has-text-light"> <span style="color:#ff8c00;" class="has-text-weight-bold">Pretty</span><span style="color:#12AD2A" class="has-text-weight-bold">Qode</span> by <span class="has-text-warning is-italic is-bold is-bold"> Fidel C.</span>&copy;<span>{{ new Date().getFullYear() }}</span>
       </p>
       </div>
        </footer>
