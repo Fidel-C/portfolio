@@ -96,29 +96,33 @@ export default {
   box-sizing:border-box;
 }
 
+.is-active{
+  color: purple;
+}
+
 .fade-enter-active{
-transition:all 2s ease-in,
+transition:all 1s ease-in,
 
 
 }
 .fade-leave-active{
 
-transition:all 2s ease-in-out,
+transition:all 1s ease-in-out,
 
 }
 
 html{
 height:100%;
 width:100%;
-background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
-
+background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
+color:wheat
 }
 
 body{
 height:100%;
 width: 100%;
-background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
-
+background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
+color:wheat
 }
 
 .layout{
@@ -126,9 +130,8 @@ background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
   width: 100%;
   display: flex;
   flex-direction: column;
-background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
-
-
+  background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
+color:wheat
 }
 
 
@@ -145,8 +148,8 @@ background-image: linear-gradient(rgb(92, 11, 53),rgb(96, 8, 96));
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right(#170317),rgb(98, 20, 59));
- color: wheat;
+  background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
+color:wheat
 
 }
 
@@ -162,6 +165,9 @@ transform: scale(120%);
 transition:all 1s;
 transform: scale(120%);
 }
+
+
+
 
 
 

@@ -1,11 +1,11 @@
 <template>
     <div class="card is-justify-content-center is-align-items-center p-1">
       <header class="card-header mx-auto">
-        <p class="card-header-title has-text-light has-text-centered">
+        <p class="has-text-light has-text-centered mx-auto">
           {{ title }}
         </p>
       </header>
-      <div class="card-content is-justify-content-center">
+      <div class="card-content has-text-weight-bold is-justify-content-center">
         <div class="card-image">
           <figure :class="`image is-${ratio}`">
               <img :src="src">
@@ -13,7 +13,7 @@
 
         </div>
 
-      <div class="card-footer is-justify-content-center p-1 mx-auto">
+      <div class="card-footer is-justify-content-center mx-auto">
         <div class="card-footer-item">
 
           <slot name="footer" />
