@@ -65,7 +65,8 @@ export default {
          details:'Links to some of my projects',
          projects:[
           {url:'https://mobiledata.com.ng',desc:'VTU website built with Django'},
-          {url:'https://onqode-store.netlify.app',desc:'E-commerce webapp built with Django Rest Framework and VueJS'}
+          {url:'https://onqode-store.netlify.app',desc:'E-commerce webapp+appk built with Django Rest Framework and VueJS'},
+          {url:'https://mobiledata.netlify.app',desc:'Utility bills weapp+apk built with Django Rest Framework and VueJS'},
          ]
          },
          { title: "More To Come",
