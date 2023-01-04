@@ -114,6 +114,7 @@
   body{
   height:100%;
   width: 100%;
+  overflow:hidden;
   background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
   color:wheat
   }
