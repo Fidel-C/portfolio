@@ -20,12 +20,12 @@
             </ul>
           </aside>
 
-          <div class="column is-four-fifths">
+          <div class="column is-four-fifths typing">
             <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Hi!</h1>
         <h1
-          class="typing has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"
+          class=" has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"
         >
-         "I Code and Design <span class="subtitle is-5 has-text-light is-italic is-underlined">beautiful and really simple things."</span>
+         "I Code and Design <span class="subtitle is-5 has-text-light is-italic is-underlined typing">beautiful and really simple things."</span>
         </h1>
             <transition name="fade">
             <Nuxt />
