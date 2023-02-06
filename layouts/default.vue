@@ -23,7 +23,7 @@
           <div class="column is-four-fifths">
             <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Hi!</h1>
         <h1
-          class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"
+          class="typing has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"
         >
          "I Code and Design <span class="subtitle is-5 has-text-light is-italic is-underlined">beautiful and really simple things."</span>
         </h1>
@@ -114,7 +114,7 @@
   body{
   height:100%;
   width: 100%;
-  overflow-x:hidden;
+  overflow:hidden;
   background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
   color:wheat
   }
@@ -134,10 +134,12 @@
     flex-direction: column;
   }
   .main-footer{
-    margin-top: auto;
-    position: relative;
     width: 100%;
     height: 100%;
+    left:0;
+    right:0;
+    bottom:0;
+    display:absolute;
     background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
   color:wheat
   }
@@ -150,4 +152,14 @@
   transition:all 1s;
   transform: scale(120%);
   }
+
+  .typing {
+  animation: typing 3s linear 2;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
   </style>
