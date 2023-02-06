@@ -20,7 +20,7 @@
             </ul>
           </aside>
 
-          <div class="column is-four-fifths typing">
+          <div class="column is-four-fifths">
             <h1 class="has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"> Hi!</h1>
         <h1
           class=" has-text-centered is-italic title is-4 has-text-warning has-text-weight-bold mt-3"
