@@ -139,7 +139,7 @@
     left:0;
     right:0;
     bottom:0;
-    display:absolute;
+    position:absolute;
     background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
   color:wheat
   }
