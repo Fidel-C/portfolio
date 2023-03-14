@@ -96,6 +96,7 @@
     padding:0;
     box-sizing:border-box;
   }
+  
   .is-active{
     color: purple;
   }
@@ -105,37 +106,26 @@
   .fade-leave-active{
   transition:all 1s ease-in-out,
   }
-  html{
-  height:100%;
-  width:100%;
-  background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
-  color:wheat
-  }
-  body{
-  height:100%;
-  width: 100%;
-  overflow:hidden;
-  background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
-  color:wheat
-  }
+
   .layout{
     height:100%;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
-  color:wheat
+      flex-grow:1;
+      background-image: radial-gradient(rgb(0.5,0.5,0.9), rgb(0,0,0));
+  color:wheat;
   }
   .container{
     padding: 2rem;
     display: flex;
     width: 100%;
     height: 100%;
+    flex-grow:1;
     flex-direction: column;
   }
   .main-footer{
     width: 100%;
-    height: 100%;
+    height: 7%;
     left:0;
     right:0;
     bottom:0;
