@@ -128,6 +128,7 @@ body {
 }
 
 .main-footer {
+   flex-grow: 1;
   width: 100%;
   left: 0;
   right: 0;
