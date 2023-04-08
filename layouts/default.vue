@@ -102,7 +102,7 @@ export default {
   transition: all 1s ease-in-out,
 }
 
-body{
+html,body{
 overflow: hidden;
 }
 
