@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="page">
 
   <div class="columns mx-auto my-5 is-align-items-center is-justify-content-between" style="border-radius:30%;">
 <div class="column">

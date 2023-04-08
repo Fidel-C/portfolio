@@ -28,10 +28,10 @@
         </div>
       </div>
     </section>
-    <footer class="main-footer">
-      <div class="columns is-centered is-align-items-center">
-        <div class="column">
-          <div class="mx-auto" style="width:152px;">
+    <div class="main-footer">
+      <div style="display:flex;justify-content: center;align-items: center;">
+        <div>
+          <div class="mx-auto" style="width:70px;height:40px;">
             <b-image src="/logo.png" ratio="16by9" :responsive="responsive" is-rounded>
 
             </b-image>
@@ -39,12 +39,12 @@
         </div>
 
 
-        <div class="column">
+        <div>
           <div class="has-text-centered">&copy; 2020 - {{ new Date().getFullYear() }}</div>
         </div>
       </div>
 
-    </footer>
+    </div>
   </div>
 </template>
 
@@ -84,16 +84,11 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-
-
-body {
-   background-image: radial-gradient(black,orange);
-  color: wheat;
-  overflow:hidden;
 
 }
+
+
+
 
 .is-active {
   color: purple;
@@ -107,26 +102,38 @@ body {
   transition: all 1s ease-in-out,
 }
 
+
+ 
 .layout {
-  height: 100dvh;
-  width: 100vw;
+  height:100dvh;
+  width: 100dvw;
   display: flex;
   flex-direction:column;
+   background-image: radial-gradient(orange,black);
+  color: wheat;
+
+  align-items: center;
+
+
 }
 
 .container {
-  width: 100vw;
-  height: 100dvh;
-  flex-grow: 1;
-  padding:1rem;
+  flex-grow:1;
+   background-image: radial-gradient(orange,black);
+  color: wheat;
+
+   padding:2rem;
 
 }
 
 .main-footer {
   width: 100vw;
   background-image: radial-gradient(orange,black);
-  color: wheat
+  color: wheat;
 }
+
+
+
 
 /* cards */
 .card:hover {

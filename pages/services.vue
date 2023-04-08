@@ -1,9 +1,9 @@
 <template>
-  <section>
+  <section class="page">
 
     <div class="columns mb-4 is-centered is-multiline is-mobile mx-auto">
       <div class="column  is-one-quarter-desktop is-half-tablet" v-for="service in services" :key="service.slug">
-        <Card :title="service.title"  :src="service.imgurl"  :ratio="'16by9'" style="height:230px;">
+        <Card :title="service.title"  :src="service.imgurl"  :ratio="'16by9'">
 
           <template #footer>
 
@@ -65,8 +65,8 @@ export default {
          details:'Links to some of my projects',
          projects:[
           {url:'https://mobiledata.com.ng',desc:'VTU website built with Django'},
-          {url:'https://onqode-store.netlify.app',desc:'E-commerce webapp+appk built with Django Rest Framework and VueJS'},
-          {url:'https://mobiledata.netlify.app',desc:'Utility bills weapp+apk built with Django Rest Framework and VueJS'},
+          {url:'https://onqode-store.netlify.app',desc:'E-commerce web app+apk built with Django Rest Framework and VueJS'},
+          {url:'https://mobiledata.netlify.app',desc:'Utility bills web app+apk built with Django Rest Framework and VueJS'},
          ]
          },
          { title: "More To Come",
