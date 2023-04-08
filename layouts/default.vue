@@ -102,17 +102,18 @@ export default {
   transition: all 1s ease-in-out,
 }
 
+body{
+overflow: hidden;
+}
 
- 
 .layout {
+  overflow:scroll;
   height:100dvh;
   width: 100dvw;
   display: flex;
   flex-direction:column;
    background-image: radial-gradient(orange 20%,black 80%);
   color: wheat;
-
-  align-items: center;
 
 
 }
@@ -127,9 +128,9 @@ export default {
 }
 
 .main-footer {
-  width: 100vw;
   background-image: radial-gradient(orange 20%,black 80%);
   color: wheat;
+  width: 100dvw;
 }
 
 
