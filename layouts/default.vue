@@ -112,7 +112,7 @@ overflow: hidden;
   width: 100dvw;
   display: flex;
   flex-direction:column;
-   background-image: radial-gradient(orange 20%,black 80%);
+   background-image: radial-gradient(orange 10%,black 90%);
   color: wheat;
 
 
@@ -120,15 +120,19 @@ overflow: hidden;
 
 .container {
   flex-grow:1;
-   background-image: radial-gradient(orange 20%,black 80%);
+  width:100%;
+   background-image: radial-gradient(orange 10%,black 90%);
   color: wheat;
-
+  display: flex;
    padding:2rem;
+   flex-direction:column;
 
 }
-
+.page{
+flex-grow: 1;
+}
 .main-footer {
-  background-image: radial-gradient(orange 20%,black 80%);
+  background-image: radial-gradient(orange 10%,black 90%);
   color: wheat;
   width: 100dvw;
 }
