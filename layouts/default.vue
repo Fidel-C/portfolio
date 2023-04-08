@@ -109,7 +109,7 @@ export default {
   width: 100dvw;
   display: flex;
   flex-direction:column;
-   background-image: radial-gradient(orange,black);
+   background-image: radial-gradient(orange 20%,black 80%);
   color: wheat;
 
   align-items: center;
@@ -119,7 +119,7 @@ export default {
 
 .container {
   flex-grow:1;
-   background-image: radial-gradient(orange,black);
+   background-image: radial-gradient(orange 20%,black 80%);
   color: wheat;
 
    padding:2rem;
@@ -128,7 +128,7 @@ export default {
 
 .main-footer {
   width: 100vw;
-  background-image: radial-gradient(orange,black);
+  background-image: radial-gradient(orange 20%,black 80%);
   color: wheat;
 }
 
