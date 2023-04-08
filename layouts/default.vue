@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
 
-    <section class="section ">
+    <section class="container">
       <div class="columns is-multiline mx-auto">
 
         <aside class="column is-one-fifth">
@@ -40,7 +40,7 @@
 
 
         <div class="column">
-          <div class="has-text-centered">&copy; {{ new Date().getFullYear() }}</div>
+          <div class="has-text-centered">&copy; 2020 - {{ new Date().getFullYear() }}</div>
         </div>
       </div>
 
@@ -86,15 +86,13 @@ export default {
   box-sizing: border-box;
 }
 
-html {
-  width: 100%;
-  height: 100%;
-}
+
 
 body {
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
+   background-image: radial-gradient(orange,black);
+  color: wheat;
+  overflow:hidden;
+
 }
 
 .is-active {
@@ -110,31 +108,23 @@ body {
 }
 
 .layout {
-  height: 100%;
-  width: 100%;
+  height: 100dvh;
+  width: 100vw;
   display: flex;
-  flex-grow: 1;
-  background-image: radial-gradient(rgb(0.5, 0.5, 0.9), rgb(0, 0, 0));
-  color: wheat;
+  flex-direction:column;
 }
 
 .container {
-  padding: 2rem;
-  display: flex;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100dvh;
   flex-grow: 1;
-  flex-direction: column;
+  padding:1rem;
+
 }
 
 .main-footer {
-   flex-grow: 1;
-  width: 100%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
-  background-image: radial-gradient(rgb(0.5, 0.5, 0.9), rgb(0, 0, 0));
+  width: 100vw;
+  background-image: radial-gradient(orange,black);
   color: wheat
 }
 

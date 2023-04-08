@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section>
 
     <div class="columns mb-4 is-centered is-multiline is-mobile mx-auto">
       <div class="column  is-one-quarter-desktop is-half-tablet" v-for="service in services" :key="service.slug">
