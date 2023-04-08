@@ -89,7 +89,7 @@ export default {
 
 
 body {
-   background-image: radial-gradient(orange,black);
+   background-image: radial-gradient(black,orange);
   color: wheat;
   overflow:hidden;
 
