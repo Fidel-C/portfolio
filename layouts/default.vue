@@ -91,10 +91,6 @@ html,body{
   height: 100dvh;
   margin: 0;
 }
-.layout{
-  height: inherit;
-  width: inherit;
-}
 
 
 
