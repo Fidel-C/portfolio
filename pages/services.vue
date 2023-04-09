@@ -1,5 +1,5 @@
 <template>
-  <section class="page">
+  <div class="page">
 
     <div class="columns mb-4 is-centered is-multiline is-mobile mx-auto">
       <div class="column  is-one-quarter-desktop is-half-tablet" v-for="service in services" :key="service.slug">
@@ -25,7 +25,7 @@
     </section>
 </b-modal>
 
-  </section>
+  </div>
 </template>
 <script>
 import Card from '~/components/Card.vue'

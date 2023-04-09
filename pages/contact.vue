@@ -1,5 +1,5 @@
 <template>
-  <section class="page">
+  <div  class="page">
     <div class="columns is-centered is-multiline is-mobile p-2" style="border-radius:30%;" >
       <div class="column">
         <div style="width: 100px;">
@@ -33,7 +33,7 @@
       </div>
     </div>
  
-  </section>
+  </div>
 </template>
 
 <script>
