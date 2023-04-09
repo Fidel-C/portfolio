@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
 
-    <section class="container">
+    <section >
       <div class="columns is-multiline mx-auto">
 
         <aside class="column is-one-fifth">
@@ -118,27 +118,34 @@ overflow: hidden;
 .layout {
   overflow:scroll;
   display: flex;
+  justify-content: stretch;
+  align-items: stretch;
   flex-direction:column;
+  height:100dvh;
+  width:100dvw;
    background-image: radial-gradient(orange 10%,black 90%);
   color: wheat;
 
 
 }
 
-.container {
-  flex-grow:1;
-  width:100%;
-   background-image: radial-gradient(orange 10%,black 90%);
-  color: wheat;
-  display: flex;
-   padding:2rem;
-   flex-direction:column;
 
-}
+
 .page{
-flex-grow: 1;
+/* height: 0; */
+flex-grow:1;
+margin:20px 10px;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+padding: 10px 10x;
 }
 .main-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right:0;
   background-image: radial-gradient(orange 10%,black 90%);
   color: wheat;
   width: 100dvw;
