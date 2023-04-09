@@ -103,16 +103,15 @@ display:flex;
 overflow: scroll;
 flex-direction: column;
 background-image: radial-gradient(orange 10%,black 90%);
-position: relative;
 color: wheat;
-height:100%;
+height:100dvh;
 }
 
 
 
 
 .main-footer {
-  position:absolute;
+  position:absolute !important;
   bottom:0;
   right:0;
   left:0;
