@@ -134,12 +134,12 @@ overflow: hidden;
 .page{
 /* height: 0; */
 flex-grow:1;
-margin:20px 10px;
 display:flex;
 flex-direction: column;
 align-items: center;
 justify-content:center;
-padding: 10px 10x;
+padding: 10px 20x;
+margin: 0;
 }
 .main-footer {
   position: absolute;
