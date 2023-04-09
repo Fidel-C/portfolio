@@ -86,13 +86,6 @@ export default {
   box-sizing: border-box;
 
 }
-html,body{
-  width: 100dvw;
-  height: 100dvh;
-  margin: 0;
-  background-image: radial-gradient(orange 10%,black 90%);
-
-}
 
 
 
