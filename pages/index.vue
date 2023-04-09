@@ -1,5 +1,5 @@
 <template>
-  <section class="page" style="height:100dvh;">
+  <section class="page">
 
   <div class="columns mx-auto my-5 is-align-items-center is-justify-content-between" style="border-radius:30%;">
 <div class="column">
@@ -36,7 +36,8 @@
 
 
 
-
+  <div  style="height:50dvh;"></div>
+    <div  style="height:50dvh;"></div>
   </section>
 </template>
 

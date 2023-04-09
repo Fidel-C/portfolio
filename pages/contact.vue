@@ -1,5 +1,5 @@
 <template>
-  <section class="page" style="height:100dvh;">
+  <section class="page">
     <div class="columns is-centered is-multiline is-mobile p-2" style="border-radius:30%;" >
       <div class="column">
         <div style="width: 100px;">
@@ -32,6 +32,8 @@
         </div>
       </div>
     </div>
+    <div  style="height:50dvh;"></div>
+  <div  style="height:50dvh;"></div>
   </section>
 </template>
 
@@ -44,7 +46,7 @@ export default {
   },
 }
 </script>
-<style>y
+<style>
 .socials:hover{
   transition:all 1s;
 transform:scale(120%);
