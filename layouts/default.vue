@@ -109,16 +109,18 @@ html,body{
   transition: all 1s ease-in-out,
 }
 
-body{
+html,body{
 overflow: hidden;
+position: relative;
 }
 
 .layout {
+  position: absolute;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
   overflow:scroll;
-  display: flex;
-  justify-content: stretch;
-  align-items: stretch;
-  flex-direction:column;
   height:100dvh;
   width:100dvw;
    background-image: radial-gradient(orange 10%,black 90%);
@@ -132,11 +134,6 @@ overflow: hidden;
 
 .page{
 /* height: 0; */
-flex-grow:1;
-display:flex;
-flex-direction: column;
-align-items: center;
-justify-content:center;
 padding: 10px 20x;
 margin: 0;
 }
