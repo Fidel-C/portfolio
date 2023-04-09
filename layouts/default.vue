@@ -123,6 +123,7 @@ overflow: hidden;
   width:100dvw;
    background-image: radial-gradient(orange 10%,black 90%);
   color: wheat;
+  position: relative;
 
 
 }
@@ -141,7 +142,6 @@ margin: 0;
 }
 .main-footer {
   position: absolute;
-  top:auto;
   bottom: 0;
   left: 0;
   right:0;
