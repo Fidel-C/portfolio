@@ -1,5 +1,5 @@
 <template>
-  <section class="page" style="height:100%;">
+  <section class="page" style="height:100dvh;">
     <div class="columns is-centered is-multiline is-mobile p-2" style="border-radius:30%;" >
       <div class="column">
         <div style="width: 100px;">
@@ -10,7 +10,7 @@
       </div>
 
       <div class="column ">
-        <div style="width: 100px;" >
+        <div style="width:100px;" >
           <a href="https://wa.me/+2347064620806" target="_blank" class="has-text-light "
             ><b-image src="/whatsapp.png" class="socials"> </b-image>
           </a>
