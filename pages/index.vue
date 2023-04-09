@@ -36,8 +36,6 @@
 
 
 
-  <div  style="height:50dvh;"></div>
-    <div  style="height:50dvh;"></div>
   </section>
 </template>
 

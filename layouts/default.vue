@@ -86,6 +86,15 @@ export default {
   box-sizing: border-box;
 
 }
+html,body{
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0;
+}
+.layout{
+  height: inherit;
+  width: inherit;
+}
 
 
 
@@ -108,8 +117,6 @@ overflow: hidden;
 
 .layout {
   overflow:scroll;
-  height:100dvh;
-  width: 100dvw;
   display: flex;
   flex-direction:column;
    background-image: radial-gradient(orange 10%,black 90%);
