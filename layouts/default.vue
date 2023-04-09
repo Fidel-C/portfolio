@@ -2,18 +2,18 @@
 
 <div class="layout">
 
-      <div class="columns is-multiline mx-auto main">
+      <div class="columns is-multiline mx-auto">
 
-        <aside class="column is-one-fifth">
+        <aside class="column is-one-fifth nx-auto">
 
-          <ul class="menu-list is-flex-mobile mx-auto"  >
-            <li v-for="(item, key) of items" :key="key" class="has-text-weight-bold links">
+          <div class="menu-list is-flex-mobile mx-auto"  >
+            <ul v-for="(item, key) of items" :key="key" class="has-text-weight-bold links mx-auto">
               <NuxtLink :to="item.to" exact-active-class="is-active">
                 <b-icon :icon="item.icon" class="has-text-warning" />
                 {{ item.title }}
               </NuxtLink>
-            </li>
-          </ul>
+            </ul>
+          </div>
         </aside>
 
         <div class="column is-four-fifths">
@@ -30,7 +30,7 @@
         </div>
       </div>
 
-      
+
   </div>
 </template>
 
