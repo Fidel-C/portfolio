@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <div>
     <p class="is-subtitle  is-bold has-text-centered is-italic p-4 has-text-light" :class="service.title=='Projects Showcase'? 'is-size-3 is-underlined has-text-weight-bold':'is-size-4'">
      {{service.details}}</p>
 
@@ -18,7 +18,7 @@
 
 
       </div>
-  </section>
+    </div>
 </template>
 
 <script>

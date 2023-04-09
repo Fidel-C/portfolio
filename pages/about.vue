@@ -3,7 +3,7 @@
 
   <div class="is-rounded mx-auto p-2 col-sm-10 col-md-8 col-lg-6 col-xl-6" style="border-radius:30%;  background-image: linear-gradient(rgb(47, 3, 47),black);box-shadow: darkslateblue;">
         <h2 class="title is-6 is-bold has-text-light has-text-centered mb-1 is-underlined"> About the Author</h2>
-    <section class="section ">
+    <div>
       <p class="subtitle is-bold is-6 is-italic is-semibold has-text-light has-text-centered">
     I am Fidel, a self-taught software developer.<br>
     I have many hobbies one of which is coding. I'm experienced in both the frontend and
@@ -12,7 +12,17 @@
     You can always count on me for your web/mobile app related needs and more <span class="is-not-italic" >&#128521;</span>.
     <br> Please feel free to reach me on any one of the links on the <NuxtLink class="subtitle is-5 is-italic has-text-warning is-link" :to="{name:'contact'}">contact page</NuxtLink>.
     <br> Thanks a bunch.</p>
-    </section>
+
+   <div class="main-footer">
+      <div class="mx-auto" style="width:70px;height:40px;">
+        <b-image src="/logo.png" ratio="16by9" :responsive="responsive" is-rounded> </b-image>
+      </div>
+
+
+      <div class="has-text-centered"> &copy; 2020 - {{ new Date().getFullYear() }} </div>
+
+    </div>
+  </div>
 </div>
 </div>
 </template>
