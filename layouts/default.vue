@@ -2,9 +2,9 @@
 
 <div class="layout">
 
-      <div class="columns is-multiline mx-auto">
+      <div class=" columns  mb-5 is-multiline mx-auto">
 
-        <aside class="column is-one-fifth nx-auto">
+        <aside class="column is-one-fifth mx-auto">
 
           <div class="menu-list is-flex-mobile mx-auto"  >
             <ul v-for="(item, key) of items" :key="key" class="has-text-weight-bold links mx-auto">
@@ -31,6 +31,15 @@
       </div>
 
 
+     <div class="main-footer" >
+            <div  style="width:70px;height:40px;">
+              <b-image src="/logo.png" ratio="16by9" :responsive="responsive" is-rounded> </b-image>
+            </div>
+
+
+            <div> &copy; 2020 - {{ new Date().getFullYear() }} </div>
+
+          </div>
   </div>
 </template>
 
@@ -66,15 +75,29 @@ export default {
 }
 </script>
 <style>
-* {
+html{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  height:100%;
+  position:relative;
 }
 
+body{
+min-height: 100%;
+box-sizing: border-box;
+padding:0;
+margin:0;
+background-image:radial-gradient(orange 10%,black 90%);
 
+}
+.layout{
+min-height: 100%;
+box-sizing:border-box;
+margin:0;
+padding:0;
 
+}
 .is-active {
   color: purple;
 }
@@ -88,29 +111,18 @@ export default {
 }
 
 
-.layout,body,html{
-
-background-image: radial-gradient(orange 10%,black 90%);
-color: wheat;
-height:100dvh;
-width: 100dvw;
-margin:0 0;
-
-}
 
 
-.page{
-  padding: 10px 20px;
-}
+
 
 .main-footer {
+  position:absolute;
+  top:auto;
   bottom: 0;
-  justify-self: end;
-  left:20px;
-  right: 20px;
+  left:0;
+  right:0;
   background-image:radial-gradient(orange 10%,black 90%);
   color: wheat;
-  padding:0 10px;
   display:flex;
   justify-content: center;
   align-items: center;

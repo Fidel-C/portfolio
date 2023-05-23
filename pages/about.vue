@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div >
 
   <div class="is-rounded mx-auto p-2 col-sm-10 col-md-8 col-lg-6 col-xl-6" style="border-radius:30%;  background-image: linear-gradient(rgb(47, 3, 47),black);box-shadow: darkslateblue;">
         <h2 class="title is-6 is-bold has-text-light has-text-centered mb-1 is-underlined"> About the Author</h2>
@@ -16,15 +16,7 @@
 
   </div>
 </div>
-   <div class="main-footer">
-        <div class="mx-auto" style="width:70px;height:40px;">
-          <b-image src="/logo.png" ratio="16by9" :responsive="responsive" is-rounded> </b-image>
-        </div>
 
-
-        <div class="has-text-centered"> &copy; 2020 - {{ new Date().getFullYear() }} </div>
-
-      </div>
 </div>
 </template>
 

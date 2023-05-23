@@ -1,11 +1,11 @@
 <template>
-<div class="page">
+<div >
 
 <div class="columns mx-auto my-5 is-align-items-center is-justify-content-between" style="border-radius:30%;">
 <div class="column">
   <h1 class="title is-2 has-text-warning has-text-centered is-italic">All<span class="has-text-light is-underlined">things beautiful</span> </h1>
 </div>
- 
+
 
 <div class="column">
       <b-carousel :arrow="arrow" class="my-5">
